@@ -1,0 +1,16 @@
+name: Feature request
+description: Something styx should do that it does not.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What you need
+      description: The problem it solves, and what you do today instead.
+    validations:
+      required: true
+  - type: textarea
+    id: provider
+    attributes:
+      label: Provider and model
+      description: When it concerns one provider or model, which one and its `kind`.

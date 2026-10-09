@@ -1,0 +1,17 @@
+[
+  {
+    "type": "text",
+    "text": "cut off mid"
+  },
+  {
+    "type": "usage",
+    "in": 9,
+    "out": 64,
+    "cacheRead": 0,
+    "cacheWrite": 0
+  },
+  {
+    "type": "stop",
+    "reason": "max_tokens"
+  }
+]

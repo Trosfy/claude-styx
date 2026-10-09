@@ -1,0 +1,21 @@
+[
+  {
+    "type": "thinking",
+    "text": "Let me think."
+  },
+  {
+    "type": "text",
+    "text": "The answer is"
+  },
+  {
+    "type": "usage",
+    "in": 100,
+    "out": 30,
+    "cacheRead": 20,
+    "cacheWrite": 0
+  },
+  {
+    "type": "stop",
+    "reason": "max_tokens"
+  }
+]

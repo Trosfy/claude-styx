@@ -1,0 +1,21 @@
+[
+  {
+    "type": "thinking",
+    "text": "17*23 = 391\n"
+  },
+  {
+    "type": "text",
+    "text": "\n\n391"
+  },
+  {
+    "type": "usage",
+    "in": 218,
+    "out": 17,
+    "cacheRead": 0,
+    "cacheWrite": 0
+  },
+  {
+    "type": "stop",
+    "reason": "end_turn"
+  }
+]

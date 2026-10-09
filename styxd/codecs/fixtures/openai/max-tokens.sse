@@ -1,0 +1,10 @@
+data: {"choices": [{"index": 0, "delta": {"reasoning_content": "Let me think."}}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "The answer is"}}]}
+
+data: {"choices": [{"index": 0, "delta": {}, "finish_reason": "length"}]}
+
+data: {"choices": [{"index": 0, "delta": {}}], "usage": {"prompt_tokens": 120, "completion_tokens": 30, "prompt_tokens_details": {"cached_tokens": 20}}}
+
+data: [DONE]
+

@@ -1,0 +1,54 @@
+name: Bug report
+description: styx did something wrong or failed with an error.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check [docs/TROUBLESHOOTING.md](https://github.com/Trosfy/claude-styx/blob/main/docs/TROUBLESHOOTING.md) first; most `styx:` lines are listed there.
+        Never paste an API key, a key command's output, or a provider URL you want kept private.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: lines
+    attributes:
+      label: styx lines
+      description: Any `styx:` lines Claude Code showed, and the `/styx` output, verbatim.
+      render: text
+  - type: textarea
+    id: config
+    attributes:
+      label: Config
+      description: The relevant part of `styx.json` (provider `kind`, model ids, alias), with keys and private URLs removed.
+      render: json
+  - type: input
+    id: commit
+    attributes:
+      label: styx commit
+      placeholder: git -C <your clone> rev-parse --short HEAD
+    validations:
+      required: true
+  - type: input
+    id: claude
+    attributes:
+      label: claude --version
+    validations:
+      required: true
+  - type: input
+    id: bun
+    attributes:
+      label: bun --version
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: System
+      options: [macOS, Linux]
+    validations:
+      required: true

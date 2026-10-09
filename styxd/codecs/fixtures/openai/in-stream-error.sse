@@ -1,0 +1,4 @@
+data: {"choices": [{"index": 0, "delta": {"content": "part"}}]}
+
+data: {"error": {"message": "upstream overloaded", "type": "server_error"}}
+

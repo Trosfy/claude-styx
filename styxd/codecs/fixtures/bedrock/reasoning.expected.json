@@ -1,0 +1,21 @@
+[
+  {
+    "type": "thinking",
+    "text": "The user asks for a greeting."
+  },
+  {
+    "type": "text",
+    "text": "Hi there."
+  },
+  {
+    "type": "usage",
+    "in": 20,
+    "out": 31,
+    "cacheRead": 0,
+    "cacheWrite": 0
+  },
+  {
+    "type": "stop",
+    "reason": "end_turn"
+  }
+]

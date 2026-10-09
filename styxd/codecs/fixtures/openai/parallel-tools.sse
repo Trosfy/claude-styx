@@ -1,0 +1,39 @@
+data: {"id":"chatcmpl-ab060a4174c50b7b","object":"chat.completion.chunk","created":1791372501,"model":"example-model","choices":[{"index":0,"delta":{"role":"assistant","content":""}}]}
+
+data: {"id":"chatcmpl-ab060a4174c50b7b","created":1791372501,"model":"example-model","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"reasoning_content":"The"}}]}
+
+data: {"id":"chatcmpl-ab060a4174c50b7b","created":1791372501,"model":"example-model","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"reasoning_content":" user wants me to"}}]}
+
+data: {"id":"chatcmpl-ab060a4174c50b7b","created":1791372501,"model":"example-model","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"reasoning_content":" call get_time for"}}]}
+
+data: {"id":"chatcmpl-ab060a4174c50b7b","created":1791372501,"model":"example-model","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"reasoning_content":" two timezones in"}}]}
+
+data: {"id":"chatcmpl-ab060a4174c50b7b","created":1791372501,"model":"example-model","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"reasoning_content":" parallel: Europe/L"}}]}
+
+data: {"id":"chatcmpl-ab060a4174c50b7b","created":1791372501,"model":"example-model","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"reasoning_content":"ondon and UTC."}}]}
+
+data: {"id":"chatcmpl-ab060a4174c50b7b","created":1791372501,"model":"example-model","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"reasoning_content":"\n"}}]}
+
+data: {"id":"chatcmpl-ab060a4174c50b7b","created":1791372501,"model":"example-model","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"tool_calls":[{"id":"chatcmpl-tool-9dd8e2d27c7fd8c1","function":{"arguments":"","name":"get_time"},"type":"function","index":0}]}}]}
+
+data: {"id":"chatcmpl-ab060a4174c50b7b","created":1791372501,"model":"example-model","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"tool_calls":[{"function":{"arguments":"{\"tz\": \""},"type":"function","index":0}]}}]}
+
+data: {"id":"chatcmpl-ab060a4174c50b7b","created":1791372501,"model":"example-model","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"tool_calls":[{"function":{"arguments":"Europe/London"},"type":"function","index":0}]}}]}
+
+data: {"id":"chatcmpl-ab060a4174c50b7b","created":1791372501,"model":"example-model","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"tool_calls":[{"function":{"arguments":"\"}"},"type":"function","index":0}]}}]}
+
+data: {"id":"chatcmpl-ab060a4174c50b7b","created":1791372501,"model":"example-model","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"tool_calls":[{"id":"chatcmpl-tool-959a1010f3511c64","function":{"arguments":"","name":"get_time"},"type":"function","index":1}]}}]}
+
+data: {"id":"chatcmpl-ab060a4174c50b7b","created":1791372501,"model":"example-model","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"tool_calls":[{"function":{"arguments":"{\"tz\": \""},"type":"function","index":1}]}}]}
+
+data: {"id":"chatcmpl-ab060a4174c50b7b","created":1791372501,"model":"example-model","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"tool_calls":[{"function":{"arguments":"UTC"},"type":"function","index":1}]}}]}
+
+data: {"id":"chatcmpl-ab060a4174c50b7b","created":1791372501,"model":"example-model","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"tool_calls":[{"function":{"arguments":"\"}"},"type":"function","index":1}]}}]}
+
+data: {"id":"chatcmpl-ab060a4174c50b7b","object":"chat.completion.chunk","created":1791372501,"model":"example-model","choices":[{"index":0,"delta":{},"finish_reason":"tool_calls"}]}
+
+data: {"id":"chatcmpl-ab060a4174c50b7b","created":1791372501,"model":"example-model","object":"chat.completion.chunk","system_fingerprint":"fp_example","choices":[{"index":0,"delta":{}}],"usage":{"completion_tokens":78,"prompt_tokens":584,"total_tokens":662,"completion_tokens_details":{"reasoning_tokens":22},"prompt_tokens_details":{"cached_tokens":0,"created_cache_tokens":0}}}
+
+data: [DONE]
+
+

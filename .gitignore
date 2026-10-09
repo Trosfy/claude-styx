@@ -1,0 +1,9 @@
+node_modules/
+.claude-plugin/types/
+hooks/schemas.mcp.gen.json
+.env*
+*.pem
+*.key
+.claude/worktrees/
+docs/handoff/
+CLAUDE-SECURITY-*/

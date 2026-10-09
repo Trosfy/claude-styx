@@ -1,0 +1,11 @@
+[
+  {
+    "type": "text",
+    "text": "part"
+  },
+  {
+    "type": "error",
+    "kind": "response",
+    "text": "styx: p response failed: throttlingException: Too many requests, please wait before trying again.; retry, or see the debug log"
+  }
+]

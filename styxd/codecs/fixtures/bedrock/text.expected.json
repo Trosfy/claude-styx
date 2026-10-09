@@ -1,0 +1,17 @@
+[
+  {
+    "type": "text",
+    "text": "Hello, world."
+  },
+  {
+    "type": "usage",
+    "in": 12,
+    "out": 5,
+    "cacheRead": 0,
+    "cacheWrite": 0
+  },
+  {
+    "type": "stop",
+    "reason": "end_turn"
+  }
+]

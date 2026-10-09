@@ -1,0 +1,12 @@
+{
+  "name": "styx",
+  "version": "0.1.0",
+  "description": "A Claude Code mod that routes the main conversation and subagents to other model providers through user-defined model aliases, on your own API key",
+  "author": {
+    "name": "styx contributors"
+  },
+  "types": "./types/index.d.ts",
+  "license": "MIT",
+  "repository": "https://github.com/Trosfy/claude-styx",
+  "keywords": ["claude-code", "claude-code-mod", "model-routing", "byok", "subagents", "openai", "bedrock", "anthropic"]
+}

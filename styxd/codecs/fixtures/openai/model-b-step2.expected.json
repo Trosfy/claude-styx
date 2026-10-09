@@ -1,0 +1,18 @@
+[
+  {
+    "type": "text",
+    "text": "London is 31°C with light rain."
+  },
+  {
+    "type": "usage",
+    "in": 95,
+    "out": 14,
+    "cacheRead": 0,
+    "cacheWrite": 0,
+    "reasoning": 0
+  },
+  {
+    "type": "stop",
+    "reason": "end_turn"
+  }
+]
